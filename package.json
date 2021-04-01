@@ -4,9 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "export": "next export",
-    "build": "next build",
-    "deploy": "yarn build && yarn export",
+    "build": "next build && next export",
     "start": "next start"
   },
   "dependencies": {
@@ -19,7 +17,6 @@
     "styled-components": "^5.2.1"
   },
   "devDependencies": {
-    "@netlify/plugin-nextjs": "^3.0.3",
     "babel-plugin-styled-components": "^1.12.0"
   }
 }
