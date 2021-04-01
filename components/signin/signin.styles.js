@@ -33,6 +33,7 @@ export const Icon = styled.a`
   color: #fff;
   font-weight: 700;
   font-size: 32px;
+  font-family: "Homemade Apple";
 
   @media screen and (max-width: 480px) {
     margin-left: 16px;

@@ -32,7 +32,7 @@ const Navbar = ({ toggle }) => {
     <Nav scrollNav={scrollNav}>
       <NavbarContainer>
         <Link href="/">
-          <NavLogo>dolla</NavLogo>
+          <NavLogo>VB</NavLogo>
         </Link>
         <MobileIcon onClick={toggle}>
           <FaBars />

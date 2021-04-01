@@ -18,6 +18,12 @@ const Layuot = (props) => {
           href="https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@400;700&display=swap"
           rel="stylesheet"
         />
+
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap"
+          rel="stylesheet"
+        />
       </Head>
       <Navbar toggle={toggle} />
       <Sidebar isOpen={isOpen} toggle={toggle} />

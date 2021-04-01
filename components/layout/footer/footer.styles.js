@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "react-scroll";
 
 export const FooterContainer = styled.div`
   background-color: #101522;
@@ -81,14 +82,17 @@ export const SocialMediaWrap = styled.div`
   }
 `;
 
-export const SocialLogo = styled.a`
-  color: #fff;
+export const SocialLogo = styled(Link)`
+  background: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   justify-content: start;
-  font-size: 1.5rem;
+  font-size: 2rem;
   display: flex;
   align-items: center;
   margin-bottom: 16px;
   font-weight: bold;
+  font-family: "Homemade Apple";
 `;
 
 export const WebsiteRights = styled.small`

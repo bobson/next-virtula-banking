@@ -29,13 +29,16 @@ export const NavbarContainer = styled.div`
 `;
 
 export const NavLogo = styled.a`
-  color: #fff;
+  background: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   justify-self: flex-start;
-  font-size: 1.5rem;
+  font-size: 2rem;
   display: flex;
   align-items: center;
   margin-left: 24px;
   font-weight: bold;
+  font-family: "Homemade Apple";
 `;
 
 export const MobileIcon = styled.div`

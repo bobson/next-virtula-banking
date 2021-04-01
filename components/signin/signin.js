@@ -17,7 +17,7 @@ const Signin = () => {
     <Container>
       <FormWrap>
         <Link href="/">
-          <Icon>dolla</Icon>
+          <Icon>VB</Icon>
         </Link>
         <FormContent>
           <Form>
